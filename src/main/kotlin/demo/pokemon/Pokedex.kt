@@ -1,4 +1,3 @@
 package demo.pokemon
 
-class Pokedex {
-}
+data class Pokedex(val pokemon: Array<Pokemon>)
