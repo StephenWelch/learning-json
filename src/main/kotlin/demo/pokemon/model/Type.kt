@@ -1,4 +1,4 @@
-package demo.pokemon
+package demo.pokemon.model
 
 enum class Type {
 

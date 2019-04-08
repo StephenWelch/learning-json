@@ -1,18 +1,19 @@
 package demo.pokemon
 
-import com.github.salomonbrys.kotson.fromJson
-import com.google.gson.Gson
+import demo.pokemon.ui.PokeView
 import javafx.application.Application
+import javafx.stage.Stage
 import tornadofx.App
-import tornadofx.UIComponent
-import tornadofx.View
-import tornadofx.hbox
-import java.io.File
-import kotlin.reflect.KClass
 
 class Main(): App() {
 
     override val primaryView = PokeView::class
+
+    override fun start(stage: Stage) {
+        super.start(stage)
+        stage.width = 800.0
+        stage.height = 600.0
+    }
 
 }
 
@@ -20,15 +21,3 @@ fun main(args: Array<String>) {
     Application.launch(Main::class.java, *args)
 }
 
-//fun main( args : Array<String> ) {
-//
-//    val gson = Gson()
-//
-//    val json = File("src/main/resources/pokedex.json").readText(Charsets.UTF_8)
-//
-//    val pokedex = gson.fromJson<Pokedex>(json)
-//
-//    println(pokedex)
-//    println("Pokedex Size: " + pokedex.pokemon.size)
-//
-//}

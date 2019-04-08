@@ -1,8 +1,9 @@
-package demo.pokemon
+package demo.pokemon.model
 
 data class Pokemon(
     val id: Int,
     val num: Int,
+    val name: String,
     val img: String,
     val type: Array<Type>,
     val height: String,
