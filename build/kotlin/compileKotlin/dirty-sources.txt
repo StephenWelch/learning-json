@@ -1,0 +1,10 @@
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/flag/Main.kt
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/flag/Flag.kt
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/pokemon/model/PokemonReference.kt
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/pokemon/model/Pokemon.kt
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/pokemon/model/Pokedex.kt
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/pokemon/model/Type.kt
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/pokemon/Main.kt
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/pokemon/ui/PokeView.kt
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/movie/model/Movie.kt
+/home/stephen/code/school/learning-json/src/main/kotlin/demo/movie/MovieView.kt

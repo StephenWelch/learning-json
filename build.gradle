@@ -34,12 +34,12 @@ dependencies {
 
     compile "no.tornado:tornadofx:$tornadofx_version"
     compile 'com.github.salomonbrys.kotson:kotson:2.5.0'
-
+    compile fileTree(dir: 'libs', include: ['*/*/*.jar'])
     testCompile "org.junit.jupiter:junit-jupiter-api:$junit_version"
     testRuntime "org.junit.jupiter:junit-jupiter-engine:$junit_version"
 }
 
-mainClassName = "demo.pokemon.MainKt"
+mainClassName = "demo.movie.MainKt"
 
 jar {
     manifest {
